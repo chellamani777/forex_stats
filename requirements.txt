@@ -1,42 +1,54 @@
-# Core Framework
+# Requirements file for AI Market Trend Analyzer
+# Python 3.9+
+
+# Web Framework
 streamlit==1.28.1
-streamlit-option-menu==0.3.6
 
 # Data Processing
-pandas==2.1.1
+pandas==2.1.3
 numpy==1.24.3
 
 # Financial Data
 yfinance==0.2.32
-alpha-vantage==2.3.1
-finnhub-python==1.3.13
 requests==2.31.0
 
-# News & Sentiment
-newsapi==0.1.2
-textblob==0.17.1
+# Technical Analysis
+ta-lib==0.4.28  # Or use pandas-ta as alternative
+
+# Sentiment Analysis
 vaderSentiment==3.3.2
 
-# AI & ML
-openai==0.28.1
-langchain==0.1.0
-python-dotenv==1.0.0
+# AI/ML
+openai==1.3.7
 
 # Visualization
-plotly==5.17.0
-altair==5.0.1
-matplotlib==3.8.1
+plotly==5.18.0
+kaleido==0.2.1
 
 # Export
+openpyxl==3.1.2
 reportlab==4.0.7
-openpyxl==3.11.0
+python-docx==0.8.11
 
-# Caching
-redis==5.0.0
+# Configuration
+python-dotenv==1.0.0
+
+# Utilities
+cachetools==5.3.2
+pytz==2023.3
 
 # Logging
 python-json-logger==2.0.7
 
-# Utility
-pytz==2023.3
-python-dateutil==2.8.2
+# Testing (Optional)
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Code Quality (Optional)
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.0
+
+# Development (Optional)
+ipython==8.17.2
+jupyter==1.0.0
