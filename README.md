@@ -54,7 +54,7 @@ streamlit run app.py
 ## Project Structure
 
 ```
-market-analyzer/
+forex_stats/
 ├── app.py                 # Main Streamlit application
 ├── requirements.txt       # Python dependencies
 ├── .env.example          # Environment variables template
@@ -92,32 +92,14 @@ market-analyzer/
 
 - **Frontend**: Streamlit
 - **Backend**: Python 3.9+
-- **Data Sources**: 
-  - Yahoo Finance (yfinance)
-  - Alpha Vantage
-  - Finnhub
-  - NewsAPI
-  - FRED
-  - Fear & Greed Index
+- **Data Sources**: Yahoo Finance, Alpha Vantage, Finnhub, NewsAPI, FRED
 - **AI**: OpenAI GPT, LangChain
 - **Visualization**: Plotly, Altair
 - **Data Processing**: Pandas, NumPy
 
-## API Keys Required
-
-1. **OpenAI API** - https://platform.openai.com/
-2. **Alpha Vantage** - https://www.alphavantage.co/
-3. **Finnhub** - https://finnhub.io/
-4. **NewsAPI** - https://newsapi.org/
-5. **FRED** - https://fred.stlouisfed.org/
-
 ## License
 
-MIT License - See LICENSE file for details
-
-## Contributing
-
-Contributions are welcome! Please follow the coding standards and create a pull request.
+MIT License
 
 ---
 
